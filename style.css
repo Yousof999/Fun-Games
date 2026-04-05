@@ -47,17 +47,11 @@ nav .container h1 {
 
 .hero {
     background-color: rgba(0, 0, 0, 0.824);
-    min-height: 100vh;
-}
-
-.hero .container {
-    width: 50%;
 }
 
 .hero .container .pen {
     margin: auto;
-    width: 140%;
-    transform: translateX(-10%);
+    width: 70%;
 }
 
 .hero .container .pen .img img {
@@ -97,3 +91,13 @@ nav .container h1 {
 }
 
 /* End Hero */
+
+/* Start Responsive */
+
+@media (max-width: 483px) {
+    .hero .container .pen .img {
+        height: 200px;
+    }
+}
+
+/* End Responsive */
